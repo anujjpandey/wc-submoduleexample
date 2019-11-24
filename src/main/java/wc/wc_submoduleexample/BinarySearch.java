@@ -1,4 +1,4 @@
-package wc.forallpoc;
+package wc.wc_submoduleexample;
 
 public class BinarySearch {
 
