@@ -6,6 +6,8 @@ To setup a submodule write the following command to your project root directory 
 
     
     git submodule add https://github.com/anujjpandey/wc-submoduleexample.git
+    (If it's throw error :: "fatal : not a git repository" call the 'git init' and then execute the above command again)
+    
     
     git init
     
