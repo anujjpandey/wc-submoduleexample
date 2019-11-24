@@ -15,4 +15,4 @@ To setup a submodule write the following command to your project root directory
     
     git submodule update
     
-Then in Android Studio File->Project Structure->app->add a new module and give the path to android_gisapp. After that do a clean build.
+Then in Android Studio File->Project Structure->app->add a new module and give the path to wc-submoduleexample. After that do a clean build.
