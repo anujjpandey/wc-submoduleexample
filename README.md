@@ -3,6 +3,7 @@ The code contain nothing just a class for elaborate binary search, the purpose o
 
 
 To setup a submodule write the following command to your project root directory
+    
     git submodule add https://github.com/anujjpandey/wc-submoduleexample.git
     
     git init
