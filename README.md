@@ -17,3 +17,5 @@ To setup a submodule write the following command to your project root directory
     git submodule update
     
 Then in Android Studio File->Project Structure->app->add a new module and give the path to wc-submoduleexample. After that do a clean build.
+
+Reference :: https://archie94.github.io/blogs/working-with-submodules-in-git-and-android-studio
