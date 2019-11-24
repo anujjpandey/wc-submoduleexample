@@ -4,7 +4,7 @@ The code contain nothing just a class for elaborate binary search, the purpose o
 
 To setup a submodule write the following command to your project root directory (Make sure that you have setup enviornment variable for git)
 
-    
+1. Use the following command to pull the module code from Git    
     git submodule add https://github.com/anujjpandey/wc-submoduleexample.git
     (If it's throw error :: "fatal : not a git repository" call the 'git init' and then execute the above command again)
     
@@ -19,8 +19,9 @@ To setup a submodule write the following command to your project root directory 
     
     git submodule update
     
-Then in Android Studio File->Project Structure->app->add a new module and give the path to wc-submoduleexample. After that do a clean build.
+2. Make the following changes:
+
+setting.gradle  ==> include ':app', ':wc-submoduleexample'
+app.gradle      ==> implementation project(path: 'wc-submoduleexample')
 
 Note :: This is just to show you how this work, you need to create your android lib and have to push it to your git public or private repo, and then need to do the same execersize with it.
-
-Reference :: https://archie94.github.io/blogs/working-with-submodules-in-git-and-android-studio
