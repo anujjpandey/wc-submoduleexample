@@ -21,7 +21,9 @@ To setup a submodule write the following command to your project root directory 
     
 2. Make the following changes:
 
+
 setting.gradle  ==> include ':app', ':wc-submoduleexample'
+
 app.gradle      ==> implementation project(path: 'wc-submoduleexample')
 
 Note :: This is just to show you how this work, you need to create your android lib and have to push it to your git public or private repo, and then need to do the same execersize with it.
