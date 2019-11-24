@@ -9,7 +9,7 @@ To setup a submodule write the following command to your project root directory
     
     git submodule update
     
-    cd android_gisapp
+    cd wc-submoduleexample
     
     git submodule init
     
